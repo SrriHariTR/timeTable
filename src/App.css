@@ -1,0 +1,63 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 48, 45);
+  
+}
+.timetable-container {
+  font-family: Arial, sans-serif;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.timetable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.timetable-header h2 {
+  margin: 0;
+}
+
+.timetable-header span {
+  font-size: 14px;
+  color: #00796b;
+}
+
+.timetable-header button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+   width: 300px;  
+}
+
+.card .time {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.card .subject {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subject{
+  max-width: 230px;
+}
