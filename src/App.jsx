@@ -3,7 +3,7 @@ import Timetable from "./Timetable";
 
 function App() {
   return (
-    <div>
+    <div className="my">
       <Timetable />
     </div>
   );
