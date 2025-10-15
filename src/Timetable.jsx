@@ -119,7 +119,7 @@ const Timetable = () => {
                 alignItems: "center",
               }}
             >
-              <div>
+              <div className="ins">
                 <div className="time">
                   {item.start} - {item.end}
                 </div>
